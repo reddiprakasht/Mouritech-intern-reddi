@@ -1,0 +1,37 @@
+[
+    {
+
+        "name":"hyderabad",
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPVIpPAG3SmHij5tkYVXyXcf4OYAgVnT0YzI4h-DsmPsFaEJpqpt02qOSoLXifMunbU94&usqp=CAU"
+    },
+    
+    {
+        "name":"chennai",
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSRGT5AaxkRbDCX6VH3aBzIo3fuQHOrpnWaeXqgfjM8ZIr36dAZw7agnTas4PtVq98N5c&usqp=CAU"
+    },
+    {
+        "name":"bangalore",
+        "pic":"https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blta952a51d42986166/61bc491fc548b77c207dbdbf/US_Bengaluru_IN_Header.jpg"
+    },
+    {
+        "name":"goa",
+        "pic":"https://backpackersunited.in/_next/image?url=https%3A%2F%2Fbpu-images-v1.s3.eu-north-1.amazonaws.com%2Fuploads%2Fgoa%202_11zon.webp&w=3840&q=75"
+    },
+    {
+        "name":"maharastra",
+        "pic":"https://www.shutterstock.com/shutterstock/videos/3405677609/thumb/1.jpg?ip=x480"
+    },
+    {
+        "name":"maharastra",
+        "pic":"https://www.shutterstock.com/shutterstock/videos/3405677609/thumb/1.jpg?ip=x480"
+    },
+    {
+        "name":"maharastra",
+        "pic":"https://www.shutterstock.com/shutterstock/videos/3405677609/thumb/1.jpg?ip=x480"
+    },
+    {
+        "name":"maharastra",
+        "pic":"https://www.shutterstock.com/shutterstock/videos/3405677609/thumb/1.jpg?ip=x480"
+    }
+
+]

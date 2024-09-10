@@ -1,0 +1,10 @@
+td{
+    color: coral ;
+}
+
+.title-color{
+    color: rgb(241, 16, 16);
+}
+.title-color :hover{
+    color-scheme: blue;
+}

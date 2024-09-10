@@ -1,0 +1,27 @@
+[
+    {
+        "name":"peter",
+        "place":"us",
+        "email":"peter@gmail.com"
+    },
+    {
+        "name":"gary",
+        "place":"uk",
+        "email":"gary@gmail.com"
+    },
+    {
+        "name":"rhanera",
+        "place":"london",
+        "email":"rhanera@gmail.com"
+    },
+    {
+        "name":"tyrin",
+        "place":"germany",
+        "email":"tyrin@gmail.com"
+    },
+    {
+        "name":"jammae",
+        "place":"lanister",
+        "email":"jammae@gmail.com"
+    }
+]
