@@ -22,6 +22,7 @@ export default function Useeffectfakestore1309() {
                                         <h5 class="card-title">{list.title}</h5>
                                         <h6 class="card-subtitle mb-2 text-warning">{list.category}</h6>
                                         <p class="card-text">{list.description}</p>
+                                        
 
                                     </div>
                                 </div>
