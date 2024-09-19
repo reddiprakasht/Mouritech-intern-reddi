@@ -28,7 +28,7 @@ export default function Filterpractice1809() {
             return(
                 <>
                 <li>
-                    {list.id}- '' 
+                    {list.id}-  
                     {list.title}
                 </li>
                 </>

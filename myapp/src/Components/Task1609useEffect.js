@@ -3,6 +3,11 @@ import { useState, useEffect } from 'react'
 
 export default function Task1609useEffect() {
     const [state, setState] = useState([])
+    const [search, setSearch]=useEffect('')
+
+    const handler = (e) =>{
+        setSearch(e.target.value)
+    }
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/photos')
@@ -11,9 +16,16 @@ export default function Task1609useEffect() {
     })
     return (
         <>
+    <input
+    type='text'
+    value={search}
+    onChange={handler}
+
+    />
+
             <div className='container'>
                 <div className='row' >
-                    {state.map((list) => {
+                    {state.filter(x=>x.url.includes(search)).map((list) => {
                         return (
                             <>
                                 <div class="card col-md-4">
