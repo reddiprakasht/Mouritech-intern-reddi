@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Servicesroute2309() {
   return (
-    <div className="container my-5">
-      <h1 className="text-center mb-4">Our Fashion Design Services</h1>
+    <div className=" mt-5  bgcservices">
+      <h1 className="text-center bghservices text-light rounded"> Our Fashion Design Services</h1>
       <p className="text-center">Explore a wide range of services tailored to elevate your style:</p>
 
       <div className="row">
@@ -35,7 +35,7 @@ export default function Servicesroute2309() {
         </div>
       </div>
 
-      <p className="text-center mt-4">
+      <p className="text-center py-4">
         Collaborating with top designers, we bring your vision to life using the finest materials. Express your personal style with confidence.
       </p>
     </div>

@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 export default function Maincontent2309() {
   return (
-    <div className="container my-5">
+    <div className="my-5">
       <div className="jumbotron text-center bg-light py-5">
         <h4 className='text-start'>LUMINALOOM</h4>
         <hr className='' />
         <h1 className="display-1"><strong>DREAMSCAPE</strong></h1>
         <hr />
-        <div className='container mb-5'>
+        <div className='mb-5'>
           <div className='row'>
             <div className='col text-start'>
               <p className=''>FASHION MARKET</p>
@@ -25,7 +25,7 @@ export default function Maincontent2309() {
             </div>
           </div>
         </div>
-        <div className='container'>
+        <div className=''>
           <div className='row'>
             <div className='col-3 text-start bg-danger'>
               <p className='text-light pt-3'>TIMELESS /</p>

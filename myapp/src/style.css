@@ -8,5 +8,33 @@ td{
 .title-color :hover{
     color-scheme: blue;
 }
+.bgcolor{
+    background-color:#EAE7DC;
+}
 
+.head1{
+    color: #E98074;
 
+}
+.bgccourse{
+    background-color: #88BDBC;
+}
+.bgcservices{
+    background-color: #C96567;
+}
+.bghservices{
+background-color: #314455;
+
+}
+.bgcollections{
+    background-color: #ECECEC;
+}
+.bgcol1{
+    background-color: #F3D250;
+}
+.bgcol2{
+    background-color: #90CCF4;
+}
+.bgcol3{
+    background-color: #F78888;
+}
