@@ -1,4 +1,4 @@
-td{
+/* td{
     color: coral ;
 }
 
@@ -37,4 +37,13 @@ background-color: #314455;
 }
 .bgcol3{
     background-color: #F78888;
+} */
+
+li:nth-child(even){
+    background: black;
+    opacity: 0.5;
+}
+
+li:nth-child(odd){
+    background: brown;
 }
