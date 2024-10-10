@@ -1,0 +1,7 @@
+commands 
+
+node -v  -------checking version of the node JS
+npm init react-app appname
+
+npm start
+

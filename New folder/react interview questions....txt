@@ -1,0 +1,12 @@
+react interview questions...
+
+what is useeffect and why we use useEffect.?
+
+use effect is also a hook in react we use uesEffect to handle the side effects like fetching the data inside the component without useEffect it will run on every render which can cause unnecessary API calls and re-renders. useEffect allows fetching the data only once when the component mounts. this improves performance by reducing unnecessary API calls, and making the component more effective
+
+every question has 3 stages :
+1 what is useeffect.
+2 why we use
+	1.didnt use side effects.
+	2.reduce the side effects by using.
+3 what are the advantages.

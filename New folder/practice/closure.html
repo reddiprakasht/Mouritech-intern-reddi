@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Closures</title>
+</head>
+<body>
+    <!-- <script>
+        function createCounter() {
+            let count = 0; // This variable is private to the createCounter function
+
+            // The inner function has access to the outer function's variables
+            return function() {
+                count++; // Increment the count variable
+                return count; // Return the updated count
+            };
+        }
+
+        const counter = createCounter(); // counter is now a closure that retains access to count
+
+        console.log(counter()); // Outputs: 1
+        console.log(counter()); // Outputs: 2
+        console.log(counter()); // Outputs: 3
+        console.log(counter())
+    </script> -->
+
+<script>
+
+    const person={
+        name:'chetan',
+        place:'uk',
+        age:23
+      }
+      const students=['dady','keerthi','shalini','pandu']
+      const emp=[
+        {
+            id:1,
+            fname:'pandu',
+            email:'pandu@gmail.com'
+        },
+        {
+            id:2,
+            fname:'dady',
+            email:'dady@gmail.com'
+        }
+      ]
+      export default person
+      export {students,emp}
+
+    </script>
+</body>
+</html>

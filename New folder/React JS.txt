@@ -1,0 +1,673 @@
+08/08/2024
+--------------------------------------
+React JS Information :
+
+React is one of the most popular and widely used library for frontend development
+
+To give you a genteel introduction, React is an Open-source JS library used for frontend development, which was developed by Facebook, . Its component-based library lets you build high-quality user-interfaces for web apps.
+
+This library allows you to place HTML codes inside JS and it works with Virtual DOM.
+
+The official site of react can be found at reactjs.org and you can find it on GitHub here.
+
+Benefits of Using React:
+-------------------------------------
+
+
+easy to learn
+------------------
+
+React is easy to learn and that is one of the most important reasons to choose this library. as it doesn't take much time to learn this technology, you can quickly begin to build things with it
+
+if a technology is hard to learn, you will probably find it difficult to start, that, as it happens, its humane nature we avoid things that hard to learn.
+
+React is easy to learn because its very simple library unlike angular, its not a complex tool. The learning process becomes easier when you have good JS skills.
+
+
+Rich -USer interface:
+-------
+React lets you build rich interfaces using a quality of UI is important berceuse here poorly designed UI is generally less user friendly and the users will not like a poorly designed UI
+
+
+
+JSX
+JavaScript + XML
+
+JSX can best be thought of as a markup syntax that very closely resembles HTML. IT is more or less like the combination of JS +XML. JSX makes writing react components, the building blocks of react UI, easier by making the Syntax developers user use for generating these strings of HTML almost identical to the HTML they will inject into the web pages JSX is one of the best React JS features web developers are always go for an easy way out which is why this a great choice for many 
+
+
+Component based :
+
+In react everything is a component the web page divided into small components to create a view or UIS .Every part of the application visuals would be wrapped a inside a self contained model known as a component, since component logic is written in JS instead of templates, you can easily pass rich data through your app and keep the state out of the DOM. Components in React JS is used to define the visuals and interactions in applications.
+
+SEO - friendly
+
+for any add to do well, it is important that search engine like it ; two factors are critical for app;
+fast loading and  rendering. If both  these boxes are ticked, your app will rank higher on google result pages.
+The super-fast rendering feature of react brings down the load time of the page drastically, enabling business to get their apps ranked on the first page of google search.
+
+Trusted by great companies.
+
+react is used by great companies and startup such as facebook, Deopbox, codeAcademy Wallmart etc.,
+
+
+Virtual DOM and better performance:
+
+JS website uses the DOM hierarchy, They look like digital trees where each leaf is a particular node, or an object representing a part of a web document. Once a user requests a web page refresh, the browser updates the entire DOM structure. That takes too long, While user expect the website's element to load immediately, long waiting time may repel them forever.
+
+React JS fixes this issue. It used a virtual DOM, which is a lightweight, improved DOM version. with its help browser updates only nodes where changes are required. Virtual Dom allows significant load time reduction performance jumps, and so user satisfaction does.
+
+
+WHAT IS DOM ?
+
+DOM stands for Document Object Model in simple terms, it is a structured representation of the HTML elements that are present in a web page or web-app. DOM represents the entire UI of your application. The Dom is represents as a tree data structure. IT contains a node for each UI element presents in the web Document.
+ 
+what is virtual DOM ?
+
+React uses virtual DOM exits which is like a lightweight copy of the actual DOM (a virtual representation of the DOM) . so far every object that exists in the original DOM, there is an object for that in React Virtual DOM, It is exactly the same, but it does not have the power to directly change the layout of the document. manipulating DOM is slow, but manipulating virtual DOM is fast as nothing gets drawn on the screen.
+ 
+
+React is especially ideal for:
+-------------------------------------
+
+1 user friendly, fast and responsive single page application
+2 creating interactive elements within any UI
+3 To develop components for high-volume, high-performing apps
+4 developing quick loading web apps
+5 creating mobile apps in native platform
+6 ensuring stable and study coadding
+7 Creating apps that are SEC friendly
+
+8 making scalable apps where you may need to frequently add new features
+
+
+
+
+
+Reusable UI components and development speed
+
+
+9th aug :
+-----------------------------
+folder structure
+myapp
+--
+
+there 
+
+will be a folder structure (ill write it later)
+
+
+
+1th august :
+----====================----------
+
+caption for React
+-----------------------
+
+"what you want to display -> Hello React"
+	where you want to display ---->root  ( root will placed in the index.html at public folder, root is an ID)
+
+
+when you try to add amore Jsx elements, it will give error..
+	adjacent JSX elements must be wrapped in  an enclosing tag. Did you want a JSX fragment <>...</>?
+
+Solution :
+enclosing can be done in 3 ways :
+
+
+1) using div tag:
+
+<div>
+	<h1>vrvrvwr</h1>
+	<h2>vrvrvwr</h2>
+	<h3>vrvrvwr</h3>
+
+</div>
+
+
+2) using []
+
+	[
+		<h1>vrvrvwr</h1>,
+		<h2>vrvrvwr</h2>,
+		<h3>vrvrvwr</h3>,
+
+	]
+
+3) using <>    </> (fragment)
+
+	<>
+		<h1>vrvrvwr</h1>
+		<h2>vrvrvwr</h2>
+		<h3>vrvrvwr</h3>
+
+	</>
+
+
+
+
+
+Expression : (we use for variable, const, etc., to  display or assign)
+===================================
+Expression in JSX are JS expression that can be used to evaluate and display dynamic value within JSX code. They are defines within curly braces {}
+
+These expressions can be any valid JS expressi0ons, including variables, function calls, and operations.
+
+
+
+
+13-aug:
+
+---------------------------------------
+arrays in react
+
+
+
+
+
+
+
+20_aug-:
+
+----------------------------------------------
+Date() functions;
+
+
+
+
+CSS using react:
+------------------------------------------------------------
+1. inline CSS
+2. external CSS
+3. internal CSS
+
+
+inline CSS
+------------------
+
+we have 2 ways 
+
+1. we use inline css as a object 
+	i.e,
+		let color={
+			color:'red',
+			fontSize:'1.5em'
+			}
+
+					and we called that inside the opening tag
+
+					
+				<h1 style={color}></h1>	  like this 
+
+
+
+2. we use double curly braces inside the opening tag.
+
+			<h1 style={{ color:'red'}}></h1>
+
+
+ 
+
+
+
+21st_aug:
+--------------------------------------------------
+images :
+-------------------------------------
+
+import pic from "./abd.jpg"     -----local
+
+
+const pic1 ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWd-yah01d6DJZUQf-vfArx33qhjZVUoCzfQ&s"     ------from web images
+
+
+
+From public folder directly we can access it without import
+
+
+In which folder images should be placed ?
+
+=--------------------------------------------------------------
+Src Folder stored in this directory will be included in the final bundle. Additionally, they have the added bonus of being able to be imported as a JS module.
+
+
+public folder- Files in public directory will not be processed by WEBPACK. And they won't be a part of the final bundle.
+ 
+
+
+22nd and 23 absent--------------------
+
+data.js  and bootstrap installation.
+
+
+26th Aug:
+=============================================
+
+
+Components:
+-------------
+Components are independent and re-usable bits of code/. They serve the same purpose as JS functions, but work in isolation and return HTML.
+
+A UI is broken down into multiple individual pieces called components. You can work on components independently and then merge them all into a parent component which will be your final UI(index.js)
+
+Components promote efficiency and scalability in web development by allowing developers to compose, combine, and customize them as needed.
+
+components are 2 types
+	1.functional components (..................)
+	2.class components
+
+Functional components:
+
+	function demo() {
+		
+			return( <h1> Welcome message  </h2>);
+			
+			}	
+
+	export default demo()
+
+
+28_aug_:
+
+
+Props:
+=====
+
+
+Props are arguments passed into React components. Props are passed to components via HTML attributes. props stands for properties.
+
+React props are like function arguments in JS and attributes in HTML
+props are read only
+
+==>How to pass props to a component
+==> How to read props from a component
+
+props are arguments passed into React components.
+props are
+
+
+App.js
+-------------------------
+
+import One from "./Components/One"
+
+const App=()=>{
+
+    var uid="mouritech"
+    return(
+        <>
+        <One name={uid}/>
+        </>
+
+    ) 
+}
+export default App
+
+One.js
+-------------------------
+import Two from "./Two";
+
+const One=(props)=>{
+
+    return(
+
+        <>
+        <Two/>
+
+        <h1>Hello {props.name}</h1>
+        </>
+    )
+}
+export default One
+
+
+
+29_aug_:
+======================
+
+Hooks:
+
+What are hooks and uses?'
+Hooks are functions let you "hook into" React state (state =value) and lifecycle features from function components.
+Hooks doesn't work inside class components
+
+useState Hook
+useContext Hook
+useEffect hook
+useMemo hook
+useRef hook etc.,
+
+what is state in React JS?
+The state is a built in React object that is used to contain data or information about the component. A component state can change over time; whenever it changes, the component re-renders.
+
+
+useState Hook:
+==================
+
+The React useState hook allows you to track sate in a function component.
+State generally refers to data or properties that need to be tracking in an application.
+
+	import {useState} from 'react';
+
+initialize useState:
+
+We initialize our state by calling useState in our function component.
+useState accepts an initial state and returns two values:
+
+	The current state.
+	A function that updates the state.
+
+	
+	const [state, setState]=useState("React");  -------(here React is the state)
+
+
+04/09/2024::
+-------------------------------------------
+
+
+Array map method:
+
+======================================================================================
+	In Js map() is a method of array object. It creatres  new array by calling a function on every element of the original and storing the result in a new array., and the original array is unchanged. 
+
+
+	array.map(myFunction)
+
+
+ 	
+		JSON :
+=================================================================
+	Java Script Object Notation ( JSON ) is a standard text based format for representing structured data based on JS object sybtax. it is commonly used for transmitting data in  web Applications (eg., sending some data from the server to the client, so it can be displayed on a web page, or vice versa).
+
+JSON extinction :  .json
+
+	json data 
+		
+	{
+		"name":"peter",
+		"place":"US",
+		"email":"peter@gmail.com"
+	} 
+
+
+
+
+12th Sept :
+=======================================================
+
+API :
+-----------
+	An API(application programming interface) is a set of rules that allow different computer programs to communicate with each other. API are a type of software interface that acts as a messenger, taking request from one program and sending response back to it.
+
+ 
+
+
+
+
+UseEffect:
+======================
+
+useEffect()==> The useEffect hook alloes you to perform side effect in your components. 
+	some examples of side effects are: fetching data, directly updating the DOM, and timers
+
+effects scheduled with useEffect dont block the browser form updating the screen, This makes our app feel more responsive.
+
+useEffect accepts two arguments. The second argument is optional.
+
+==> without second paramenter []
+
+useEffect(()=>{
+	
+	console.log('component mounted')
+	
+	})
+
+
+17/09/2024:
+========================
+
+uncontrolled component:
+
+UC are the components that are not controlled by the React state and are handled by the DOM (document object model)
+
+Controlled components are those in which forms data is handled by the component's state. it takes its current value through props and makes changes through callbacks like onclick,
+onChange, etc., A parent component manages its own state and phase the new values as props to the controlled component 
+
+	<input 		
+		name='name'
+		value={value}
+		....something here
+
+ 	</input>
+
+Filter() method:  and search :
+
+-------------------------------
+
+The filter() method creates a new array filled with elements that pass a test provided by a function.
+The filter() method does not execute the function for empty elements.
+
+includes() method:
+-------------------------
+The includes() method returns true if a string contains a specified string.
+Otherwise it returns false.
+The includes() method is case sensitive.
+
+{state.filter(fruit=>.fruit.name.includes("apple")).map((fruit)=> <li>{fruit.name}</li>)}
+
+
+
+
+19/09:
+
+API weather,
+
+e4267305efe1b170c86abbf770694d16
+
+https://api.openweathermap.org/data/2.5/weather?q=hyderabad&appid=e4267305efe1b170c86abbf770694d16
+
+
+20/09/2024:
+
+==================================================
+Props :
+
+What is prop Drilling?
+Prop drilling accures when a parent components generate its state and passes it down as props to its children components that do not consume the props - insted , they only pass it down to another component that finnaly consumes it.
+
+Prop drilling is the process of passing down data or state through multiple layers of a component hierarcy. 
+
+=> Create components =>Compa, CompB, CompC
+=>
+=>define data in parent component=> App
+var c=''
+=>pass it to child component
+	<CompA data={x}/>
+=>receive it in CompA
+	function CompA({data}) {}
+
+=>passit to child component
+	<CompB data={data}/>
+	
+
+consume in CompC
+
+
+
+Context:
+==========================================
+Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+In a typical React Application, data is passed top-down (parent to child) via props (eg . local performance, UI theme) that are required by many components within an application.
+
+Context provides a way to share values like these between components without having to explicitly pass a drop through every level of the tree.
+
+import context:
+import {createContext} from 'react'
+
+export const context=createContext()
+let uid='mouritech'
+
+<context.provider value={uid}>
+
+<compA/>
+
+<context.provider>
+
+-----
+
+import React, {useContext} from 'react'
+import {context} from './App'
+
+let x=useContext(context)
+<h3>Welcome to {x </h3>}
+
+
+
+
+
+
+
+23rd sep :
+---------------------
+
+Single Page Application :
+
+A single page application is a website or web application that dynamically rewrites a current web page with new data from the web server, insted of the defalut method of a web browser loading entire new pages .
+
+Routing :
+-----------
+============
+
+In a single page react-application, routing refers to the process of navigating between different pages without triggering a full page reload. The application initially loads a single page. 
+Then, it dynamically renders different components based on user interaction.
+
+
+<browserRouter> => we wrap our content first with <BrowserRouter>
+<Routes> => then we define out <Routes>. 
+An application can have multiple <Routes>
+<Route> => <Route> s can be nested. The 
+<Route> has a path of / and renders the component.
+
+Installling Router 
+
+npm i react-router-dom
+
+
+
+30/09 :
+===================
+
+Class components:
+
+class Comp1 extends React.Component{
+	render() {
+		return <h2> Hi, I am a Car! <h2>;
+}
+}
+
+
+useRef() Hook :
+===============================
+
+Uncontrolled Components are the components that are not controlled by the React state and are handled by the DOM Document Object Model).
+
+So in order to access any value that has been entered we take the help of refs.
+
+Difference between useState and useRef:
+
+useState will re-render when the content change and update in UI
+
+useRef doesn't notify you when its content change.mutating the (.current) property doesn't cause a re-render.
+
+=>import useRef()
+=>include useRef()
+	const data=useRef()
+=>get data from input using useRef
+	data.current.value
+
+
+
+
+
+
+
+01/10 -------
+==================================
+
+What is redux
+Redux is a predictable state container for javaScript apps. TThsi means that redux is a preditable state container forjs applications.
+
+Redux reduces the complexity of the code, by enforcing the restriction on how and when STATE update can happen. This way, managing updated state is easy.
+
+Why should I Use redux?
+
+Redux helps you manage "global" state- state that is needed across many parts of your application. Redux helps you deal with shared STATE management
+
+
+Redux is more useful when :
+
+	You have large amounts of application state that are needed in many places in the app
+	The app state is updated frequently over time
+	The logic to update that state may be complex
+	The app has a medium or large-sized codebase, and might be worked on by many people
+
+Redux works based on 3 points 
+
+1)Store
+2)reducer
+3)action
+
+
+
+Store :
+=============
+The center of every redux application is the store. A "store" is a container that holds your application's global state
+
+Redux can have a single store in your application.
+Whenever a store is created in Redux WE NEED TO SPECIFY THE REDUCER.
+
+
+create a store using  the createStore method from Redux. One need to import the createStore package from the Redux
+
+	import {createStore} from 'redux';
+
+Reducers:
+======================
+
+A reducer is a function that receives the current state and an action object, decides how to update the state if necessary, and returns the new state: (state, action) => newState. You can think of a reducer as an event listner which handels events based on the received action (event) type.
+
+	const store = createStore(reducer);
+
+const reducer =(state = initialState, action) => {
+	//write your code
+	
+	}
+
+
+
+
+Action :
+==============
+An action is a plain JS object that has a 'type' field. 
+You can think if an action as an event that describes something that happened in the application.
+
+const increment = {
+	type: 'INCREMENT'
+	payload: '100'
+	
+}
+
+
+Dispatch :
+==============
+The Redux store has a methosd called dispatch the only way to update the state is to call store.dispatch() and pass in an action object. The store will run its reducer function and save the new state value inside, and we can call getState() to retrive the updated value
+
+store.dispatch({type: 'counter/incremented'})
+
+console.log (store.getState())
+
+
+
+

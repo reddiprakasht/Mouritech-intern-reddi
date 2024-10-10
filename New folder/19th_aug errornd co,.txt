@@ -1,0 +1,124 @@
+19th_aug:
+-----------------------------------------------------
+
+compailer 
+
+interpreture
+
+
+
+JS Execution Context,
+
+JavaScript engine:
+	Every web browser has its own form of a JS Engine
+
+Eg. Chrome has v8 engine and Mozilla has spider monkey engine etc., though they all have the same purpose, JS engines simply convert JS source code into a language the compiler then understand, then executes it.
+
+
+
+Execution context:
+-----------------------------------
+
+An environment in which the JS code runs is what form an execution context.
+
+The execution context decides what particular piece of code has access to variables, functions, objects, etc.,
+
+
+Execution context have different types---
+
+1. Global Execution context (GEC)
+2. Function Execution Context
+
+
+1.-GEC
+--------------------------------------
+Whenever the code runs for the first time or when the code is not inside any function them it gets into the global execution context. there is only one global execution context throughout the execution of code.
+
+In the case of browser global execution context does 2 things
+
+	1. Create a 'window' object.
+	2. The window object is referenced to 'this' keyword.
+
+2. Function Execution Context.
+----------------------------------------------------
+Whenever the code execution found a function it creates new function execution contexts. 
+There can be any number of function execution contexts.
+
+
+
+
+There are 2 phases in execution context 
+
+`1) Creation phase
+2) Execution phase
+
+--> In creation page we have access to window and this 
+
+-->value to variable will be not assigned
+
+-->in execution phase functions gets invoked 
+
+--> in the creation phase hoisting takes place
+
+
+Hoisting :
+-------------
+giving/ assigning memory to variable in the creation phase is hoisting
+
+console.log("uid")
+var uid="javascript"     ---------this is not worked
+
+code:
+
+var demo ="welcome to JS";
+console.log(demo) 
+
+result :
+PS D:\React\practice> node gcs.js
+welcome to JS
+
+code :
+console.log(demo)
+var demo ="welcome to JS";
+
+result :
+PS D:\React\practice> node gcs.js
+undefined
+
+code :
+function demo(){
+    console.log("welcome to function")
+}
+demo()
+
+result :
+PS D:\React\practice> node gcs.js
+welcome to function
+
+code :
+
+demo()
+function demo(){
+    console.log("welcome to function")
+}
+
+result :
+PS D:\React\practice> node gcs.js
+welcome to function
+
+
+in the above VAR and FUNCTION ----FUNCTION is called anywhere it will be executed but VAR is called after the declaration of variable
+
+like 
+first we declare and called will execute,
+we declared and called is shows UNDEFINED ERROR
+
+2. if we called an variable without declaring the variable the error will show like REFFERENCE ERROR
+
+
+---------------------------
+temporal dead Zone:
+
+it is a time span in which variable is actually created but value not initialised anything, until it is initialised it cannot be accessed. 
+
+so it is available in creation phase and next phase is execution phase where the value is assigned.
