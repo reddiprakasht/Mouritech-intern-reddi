@@ -1,14 +1,12 @@
-
-import { createContext } from "react";
-
-import StoreRedex0110 from "./Components/StoreRedex0110";
-
-
-export const context = createContext();
+import React from 'react';
+import Api1209 from "./Components/Api1209";
 
 const App = () => {
     return (
-    <StoreRedex0110/>
+        <>
+            <Api1209 />
+            <h1>My Todo List</h1>
+        </>
     );
 };
 

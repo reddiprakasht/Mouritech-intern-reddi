@@ -1,24 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 
-import { useState } from 'react'
 export default function Api1209() {
+    const [state, setState] = useState([]);
 
-    const [state, setState]=useState([])
+    useEffect(() => {
+        fetch('https://jsonplaceholder.typicode.com/todos')
+            .then(response => response.json())
+            .then(json => setState(json))
+            .catch(error => console.error('Error fetching data:', error));
+    }, []); // Empty dependency array ensures this runs only once
 
-    fetch('https://jsonplaceholder.typicode.com/todos')
-      .then(response => response.json())
-    //   .then(json => console.log(json))
-      .then(json=>setState(json))
-
-  return (
-    <div>
-        {state.map((list)=>{
-            return(
-                <li>{list.title}</li>
-            )
-        })}
-      
-
-    </div>
-  )
+    return (
+        <div>
+            <h1>Todo List</h1>
+            <ul>
+                {state.map((list) => (
+                    <li key={list.id}>{list.title}</li> // Added key for list items
+                ))}
+            </ul>
+        </div>
+    );
 }
